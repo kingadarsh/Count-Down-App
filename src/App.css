@@ -1,0 +1,37 @@
+body{
+  padding: 0%;
+  margin: 0%;
+  background-color: #162442;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.TimerDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:x-large;
+}
+
+#StartBtn{
+  background-color:#20bf6b ;
+}
+#StopBtn{
+  background-color: #eb3b5a;
+}
+#ResetBtn{
+  background-color: #25CCF7;
+}
+
+.Btn{
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
